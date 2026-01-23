@@ -7,60 +7,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-    <div id="overlay" class="overlay"></div>
-    
-    <header>
-      <div class="side_nav">
-        <span id="hamburger" class="hamburger" onclick="toggleMenu(event)">☰</span>
-      </div>
+  <div id="overlay" class="overlay"></div>
 
-      <a href="index.html">
-        <img src="monogram.svg" alt="Logo" class="header-image">
-      </a>
+  <header class="header">
+    <span id="hamburger" class="hamburger" onclick="toggleMenu(event)">☰</span>
 
-      <div class="header-text">
-        <h1>The MK's Website</h1>
-        <p>WASSUP</p>
-      </div>
-      
-      <nav id="sidebar" class="sidebar">
-        <div class="sidebar-title">
-          <h2>smt</h2>
+    <a href="index.html">
+      <img src="monogram.svg" class="monogram header-image" alt="Logo">
+    </a>
+
+    <div class="header-text">
+      <h1>The MK's Website</h1>
+      <p>WASSUP</p>
+    </div>
+
+    <nav class="top_nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <nav id="sidebar" class="sidebar">
+      <h2 class="sidebar-title">Welcome</h2>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="box title">
+        <h2>LE CONTACT PAGE</h2> 
+    </section>
+
+    <section class="box contact">
+        <div class="text">
+          <h2>Let’s Connect!</h2> 
+          <p>I’d love to hear from you! Whether you have questions about my projects, want to collaborate, or simply want to chat about digital communication, feel free to get in touch. The best way to contact me is through my email 276787s@sd44.ca. I try to respond within a week. Please be patient if it takes me a little longer to reply, as I may be balancing coursework and other projects.</p>
+         <p>While I’m open to most inquiries related to digital communication and collaboration, I’m not able to respond to irrelevant messages like spam or marketing inquiries. Feel free to reach out if you have a digital project idea or want to discuss anything related to the course! Looking forward to hearing from you!</p>
         </div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-      </nav>
- 
-      <nav class="top_nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-    
-    <main>
-      <h2>Contact</h2>
+        <img src="monogram.svg" class="monogram about-image" alt="Logo">
+    </section>
+  </main>
 
-      <section>
-        <h3>How to connect</h3>
-        <p>Write a safe way for someone to connect with you (example: “Talk to me in class” or “Message on Teams”).</p>
-      </section>
-
-      <section>
-        <h3>Feedback welcome</h3>
-        <p>Add a short message inviting feedback or collaboration.</p>
-      </section>
-    </main>
-
-    <footer>
-      <p>© YOUR NAME • DigiComm 10/11</p>
-    </footer>
+  <footer>
+    <p>© MK TRAN • DigiComm 10/11</p>
+  </footer>
 
   <script src="script.js"></script>
-  </body>
+</body>
 </html>

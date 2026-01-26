@@ -141,8 +141,8 @@ header p {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -250px;
-  width: 250px;
+  left: -16rem;
+  width: 16rem;
   height: 100vh;
   background: #4f3c36;
   transition: left 0.3s ease;
@@ -272,7 +272,6 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
 }
 
 .video-player {
@@ -305,6 +304,7 @@ header p {
 .podcast-image {
   width: 200px; 
   border-radius: 1.5rem;
+  padding: 0.5rem;
 }
 
 .audio-showcase {
